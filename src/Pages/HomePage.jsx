@@ -33,21 +33,21 @@ const HomePage = () => {
       </div>
 
       <Connect />
-      <div class="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
-        <div class="mb-4 md:mb-0 md:mr-8 flex-shrink-0 w-full md:w-1/3 shadow-2xl">
+      <div className="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
+        <div className="mb-4 md:mb-0 md:mr-8 flex-shrink-0 w-full md:w-1/3 shadow-2xl">
           <img
             src={Introimage}
             alt="Introduction"
-            class="w-full h-auto border-4 border-pink-500 rounded-2xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-pink-500/50"
+            className="w-full h-auto border-4 border-pink-500 rounded-2xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-pink-500/50"
           />
         </div>
 
-        <div class="w-full md:w-2/3 max-w-2xl ">
-          <h3 class="text-[#C77F34] italic">EliteBandhan.Com</h3>
-          <h2 class="text-pink-500 text-2xl sm:text-4xl font-bold mb-4 italic">
+        <div className="w-full md:w-2/3 max-w-2xl ">
+          <h3 className="text-[#C77F34] italic">EliteBandhan.Com</h3>
+          <h2 className="text-pink-500 text-2xl sm:text-4xl font-bold mb-4 italic">
             Premium Matrimonial Service in Delhi - EliteBandhan.Com
           </h2>
-          <p class="text-[#C77F34] text-lg sm:text-xl italic text-justify">
+          <p className="text-[#C77F34] text-lg sm:text-xl italic text-justify">
             Looking for a premium matrimonial service in Delhi that values your
             tradition and understands your preferences? Welcome to
             EliteBandhan.Com, where finding the perfect life partner is more

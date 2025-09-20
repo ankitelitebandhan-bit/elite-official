@@ -37,7 +37,6 @@ const MemberCarousel = () => {
     },
   ];
 
-  // react-slick settings
   const settings = {
     dots: false,
     infinite: true,
@@ -45,16 +44,24 @@ const MemberCarousel = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     arrows: true,
     responsive: [
       {
         breakpoint: 1024,
-        settings: { slidesToShow: 2 },
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
       },
       {
         breakpoint: 768,
-        settings: { slidesToShow: 1 },
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        },
       },
     ],
   };
@@ -65,11 +72,11 @@ const MemberCarousel = () => {
         Lakhs Of Happy Members From Over The Globe
       </h2>
 
-      <div className="px-4 md:px-20 pb-20 pt-10">
+      <div className="w-full max-w-7xl mx-auto px-4 md:px-10 pb-20 pt-10">
         <Slider {...settings}>
           {members.map((member, index) => (
             <div key={index} className="px-2">
-              <div className="bg-white border-2 border-orange-200 rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 overflow-auto ">
+              <div className="w-full min-w-[280px] bg-white border-2 border-orange-200 rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <div className="flex justify-center">
                   <img
                     src={member.image}
