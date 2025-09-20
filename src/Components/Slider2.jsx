@@ -28,7 +28,7 @@ function Slider2() {
     <div className="h-auto bg-[#fff3ee] flex flex-col justify-center items-center">
       {/* Title */}
       <motion.h1
-        className="text-4xl font-bold text-center italic  text-[#BB4D00] mb-10"
+        className="text-4xl ml-3 mr-3 font-bold text-center italic  text-[#BB4D00] mb-10"
         initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }} // No animation for the title
@@ -37,11 +37,11 @@ function Slider2() {
       </motion.h1>
 
       {/* Image Container */}
-      <div className="flex justify-center gap-16 flex-wrap mt-10 mb-10">
+      <div className="flex ml-3 mr-3 justify-center gap-16 flex-wrap mt-10 mb-10">
         {images.map((image, index) => (
           <motion.div
             key={image.id}
-            className="w-60 h-60 rounded-lg overflow-hidden shadow-lg"
+            className="h-100 ml-3 mr-3 w-80 md:w-60 md:h-60 rounded-lg overflow-hidden shadow-lg"
             initial={{ opacity: 0 }}
             animate={{
               opacity: currentImageIndex === index ? 1 : 0, // Fade in only the current image
