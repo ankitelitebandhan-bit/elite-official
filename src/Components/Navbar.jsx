@@ -4,7 +4,7 @@ import logo from "../assets/logo_png.webp";
 
 const Navbar = () => {
   return (
-    <div className="flex w-full fixed justify-between items-center top-5 left-0 right-0 px-4 py-3 z-10  ">
+    <div className="flex w-full  justify-between items-center top-5 left-0 right-0 px-4 py-3 z-10  ">
       <div className="flex items-center gap-2 text-pink-500 font-semibold text-xl">
         <div className="rounded-full">
           <img src={logo} alt="Logo" className="h-12 sm:h-16 ml-5" />

@@ -3,6 +3,8 @@ import Navbar from "../Components/Navbar";
 import Banner from "../assets/Banner.webp";
 import Connect from "../Components/Connect";
 import Introimage from "../assets/Introimage.webp";
+import Button from "../Components/Button";
+import EliteFeatures from "../Components/EliteFeatures";
 
 const HomePage = () => {
   return (
@@ -81,8 +83,16 @@ const HomePage = () => {
             matrimonial service, you’re not just finding a match – you’re
             starting a new journey with complete peace of mind.
           </p>
+          <Button />
         </div>
       </div>
+
+      <h1 className="text-pink-500 text-2xl sm:text-4xl font-bold  italic text-center mt-16 mb-16">
+        Our Edge: Exclusive Profiles, Dedicated Managers & Trusted Matrimonial
+        Services
+      </h1>
+
+      <EliteFeatures />
     </>
   );
 };
