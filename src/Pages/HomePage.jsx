@@ -34,15 +34,15 @@ const HomePage = () => {
           Why Choose Us?
         </h2>
         <ul className="list-disc list-inside space-y-2 letter mx-auto space-x-auto text-justify">
-          <li className="text-[#C77F34]  text-center">
+          <li className="text-[#C77F34]  text-justify">
             <strong>Personalized Matches:</strong> We take the time to
             understand your preferences and values.
           </li>
-          <li className="text-[#C77F34] text-center">
+          <li className="text-[#C77F34] text-justify">
             <strong>Verified Profiles:</strong> Our thorough verification
             process ensures genuine connections.
           </li>
-          <li className="text-[#C77F34] text-center">
+          <li className="text-[#C77F34] text-justify">
             <strong>Success Stories:</strong> Join the ranks of our happy
             couples who found love through us.
           </li>
