@@ -1,7 +1,9 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 
 const MemberCarousel = () => {
   const members = [
@@ -35,36 +37,8 @@ const MemberCarousel = () => {
       location: "Nice, France",
       image: "https://randomuser.me/api/portraits/women/5.jpg",
     },
+    // You can add more here
   ];
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-    ],
-  };
 
   return (
     <div className="py-12 bg-[#FFF3EE]">
@@ -72,11 +46,38 @@ const MemberCarousel = () => {
         Lakhs Of Happy Members From Over The Globe
       </h2>
 
-      <div className="w-full max-w-7xl mx-auto px-4 md:px-10 pb-20 pt-10">
-        <Slider {...settings}>
+      <div className="max-w-7xl mx-auto px-4 md:px-10 pb-20">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={20}
+          slidesPerView={3}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
+        >
           {members.map((member, index) => (
-            <div key={index} className="px-2">
-              <div className="w-full min-w-[280px] bg-white border-2 border-orange-200 rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
+            <SwiperSlide key={index}>
+              <div className="bg-white border-2 border-orange-200 rounded-xl p-4 shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
                 <div className="flex justify-center">
                   <img
                     src={member.image}
@@ -94,9 +95,9 @@ const MemberCarousel = () => {
                   </span>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
           ))}
-        </Slider>
+        </Swiper>
       </div>
     </div>
   );
