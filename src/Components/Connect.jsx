@@ -2,10 +2,10 @@ import React from "react";
 
 const Connect = () => {
   return (
-    <div className="container mt-5 w-full sm:w-3/4 md:w-1/2 lg:w-1/4">
+    <div className="w-full max-w-md mx-auto bg-white bg-opacity-90 backdrop-blur-md p-6 rounded-lg shadow-lg">
       <form className="flex flex-col gap-4">
         {/* Name Field */}
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col">
           <label htmlFor="name" className="text-pink-500 font-semibold mb-1">
             Name
           </label>
@@ -20,7 +20,7 @@ const Connect = () => {
         </div>
 
         {/* Email Field */}
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col">
           <label htmlFor="email" className="text-pink-500 font-semibold mb-1">
             Email
           </label>
@@ -35,7 +35,7 @@ const Connect = () => {
         </div>
 
         {/* Phone Field */}
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col">
           <label htmlFor="phone" className="text-pink-500 font-semibold mb-1">
             Phone
           </label>
@@ -50,7 +50,7 @@ const Connect = () => {
         </div>
 
         {/* Message Field */}
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col">
           <label htmlFor="message" className="text-pink-500 font-semibold mb-1">
             Your Message
           </label>
@@ -65,14 +65,12 @@ const Connect = () => {
         </div>
 
         {/* Submit Button */}
-        <div className="mt-4">
-          <button
-            type="submit"
-            className="w-full bg-pink-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition-colors"
-          >
-            Submit
-          </button>
-        </div>
+        <button
+          type="submit"
+          className="w-full bg-pink-500 text-white font-bold py-2 px-4 rounded-md hover:bg-pink-600 transition-colors"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );

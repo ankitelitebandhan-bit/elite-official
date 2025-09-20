@@ -26,8 +26,6 @@ const HomePage = () => {
             Trusted matrimonial service with thousands of successful matches. We
             connect hearts and build families.
           </p>
-
-          <Connect />
         </div>
       </div>
 
@@ -50,6 +48,8 @@ const HomePage = () => {
           </li>
         </ul>
       </div>
+
+      <Connect />
       <div class="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
         <div class="mb-4 md:mb-0 md:mr-8 flex-shrink-0 w-full md:w-1/3 shadow-2xl">
           <img
