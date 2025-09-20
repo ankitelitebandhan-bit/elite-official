@@ -29,26 +29,6 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* <div className="px-6 sm:px-8 md:px-0 md:max-w-4xl md:mx-auto py-6 text-justify">
-        <h2 className="text-pink-500 text-2xl sm:text-4xl font-bold text-center mb-4 italic">
-          Why Choose Us?
-        </h2>
-        <ul className="list-disc list-inside space-y-2 letter mx-auto space-x-auto text-justify">
-          <li className="text-[#C77F34]  text-justify">
-            <strong>Personalized Matches:</strong> We take the time to
-            understand your preferences and values.
-          </li>
-          <li className="text-[#C77F34] text-justify">
-            <strong>Verified Profiles:</strong> Our thorough verification
-            process ensures genuine connections.
-          </li>
-          <li className="text-[#C77F34] text-justify">
-            <strong>Success Stories:</strong> Join the ranks of our happy
-            couples who found love through us.
-          </li>
-        </ul>
-      </div> */}
-
       <Connect />
       <div class="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
         <div class="mb-4 md:mb-0 md:mr-8 flex-shrink-0 w-full md:w-1/3 shadow-2xl">
@@ -88,7 +68,7 @@ const HomePage = () => {
       </div>
 
       <div className="px-4 sm:px-6 md:max-w-4xl md:mx-auto">
-        <h1 className="text-pink-500 text-2xl sm:text-4xl font-bold italic mt-16 mb-16 text-justify">
+        <h1 className="text-[#E17100] text-2xl sm:text-4xl font-bold italic mt-16 mb-16 text-justify">
           Our Edge: Exclusive Profiles, Dedicated Managers & Trusted Matrimonial
           Services
         </h1>
