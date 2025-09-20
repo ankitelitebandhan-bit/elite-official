@@ -45,7 +45,7 @@ const EliteFeatures = () => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
-      className="relative bg-[#fef7e9] border-4 border-[#e3c59f] py-16 px-20 mt-5 mb-5 max-w-6xl mx-auto flex flex-col md:flex-row justify-around items-center text-center gap-12 rounded-sm"
+      className="relative bg-[#f1d88d] border-4 ml-3 mr-3 border-[#e3c59f] py-16 px-20 mt-5 mb-5 max-w-6xl md:mx-auto flex flex-col md:flex-row justify-around items-center text-center gap-12 rounded-sm"
     >
       {/* Decorative Corner Borders */}
       <div className="absolute top-0 left-0 w-4 h-4 border-t-4 border-l-4 border-[#e3c59f]"></div>

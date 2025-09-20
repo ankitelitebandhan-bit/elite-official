@@ -18,7 +18,7 @@ const HomePage = () => {
 
         <Navbar />
 
-        <div className="absolute inset-0 flex flex-col justify-center items-start text-left px-4 sm:px-6 space-y-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-start  md:text-left px-4 sm:px-6 space-y-4 text-justify">
           <h1 className="text-pink-500 text-3xl sm:text-5xl font-bold drop-shadow-lg italic">
             Find Your perfect Match
           </h1>
@@ -29,20 +29,20 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="p-4 sm:p-6 max-w-4xl mx-auto">
-        <h2 className="text-pink-500 text-2xl sm:text-4xl font-bold mb-4 italic">
+      <div className="px-6 sm:px-8 md:px-0 md:max-w-4xl md:mx-auto py-6 text-justify">
+        <h2 className="text-pink-500 text-2xl sm:text-4xl font-bold text-center mb-4 italic">
           Why Choose Us?
         </h2>
-        <ul className="list-disc list-inside space-y-2">
-          <li className="text-[#C77F34]">
+        <ul className="list-disc list-inside space-y-2 letter mx-auto space-x-auto text-justify">
+          <li className="text-[#C77F34]  text-center">
             <strong>Personalized Matches:</strong> We take the time to
             understand your preferences and values.
           </li>
-          <li className="text-[#C77F34]">
+          <li className="text-[#C77F34] text-center">
             <strong>Verified Profiles:</strong> Our thorough verification
             process ensures genuine connections.
           </li>
-          <li className="text-[#C77F34]">
+          <li className="text-[#C77F34] text-center">
             <strong>Success Stories:</strong> Join the ranks of our happy
             couples who found love through us.
           </li>
@@ -64,7 +64,7 @@ const HomePage = () => {
           <h2 class="text-pink-500 text-2xl sm:text-4xl font-bold mb-4 italic">
             Premium Matrimonial Service in Delhi - EliteBandhan.Com
           </h2>
-          <p class="text-[#C77F34] text-lg sm:text-xl italic">
+          <p class="text-[#C77F34] text-lg sm:text-xl italic text-justify">
             Looking for a premium matrimonial service in Delhi that values your
             tradition and understands your preferences? Welcome to
             EliteBandhan.Com, where finding the perfect life partner is more
@@ -87,10 +87,12 @@ const HomePage = () => {
         </div>
       </div>
 
-      <h1 className="text-pink-500 text-2xl sm:text-4xl font-bold  italic text-center mt-16 mb-16">
-        Our Edge: Exclusive Profiles, Dedicated Managers & Trusted Matrimonial
-        Services
-      </h1>
+      <div className="px-4 sm:px-6 md:max-w-4xl md:mx-auto">
+        <h1 className="text-pink-500 text-2xl sm:text-4xl font-bold italic mt-16 mb-16 text-justify">
+          Our Edge: Exclusive Profiles, Dedicated Managers & Trusted Matrimonial
+          Services
+        </h1>
+      </div>
 
       <EliteFeatures />
     </>

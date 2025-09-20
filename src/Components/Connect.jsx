@@ -2,7 +2,7 @@ import React from "react";
 
 const Connect = () => {
   return (
-    <div className="w-full max-w-md mx-auto bg-white bg-opacity-90 backdrop-blur-md p-6 rounded-lg shadow-lg">
+    <div className="w-full m-3 backdrop-blur-3xl max-w-md mx-auto bg-pink-300/10 p-6 rounded-lg shadow-xl">
       <form className="flex flex-col gap-4">
         {/* Name Field */}
         <div className="flex flex-col">
@@ -14,7 +14,7 @@ const Connect = () => {
             id="name"
             name="name"
             placeholder="John Doe"
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             required
           />
         </div>
@@ -29,7 +29,7 @@ const Connect = () => {
             id="email"
             name="email"
             placeholder="john.doe@example.com"
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             required
           />
         </div>
@@ -44,7 +44,7 @@ const Connect = () => {
             id="phone"
             name="phone"
             placeholder="123-456-7890"
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             required
           />
         </div>
@@ -59,7 +59,7 @@ const Connect = () => {
             name="message"
             rows="4"
             placeholder="Type your message here..."
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             required
           ></textarea>
         </div>
