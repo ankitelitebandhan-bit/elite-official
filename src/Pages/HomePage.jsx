@@ -8,6 +8,7 @@ import EliteFeatures from "../Components/EliteFeatures";
 import WhyEliteSection from "../Components/WhyEliteSection";
 import MatchmakingSection from "../Components/MatchmakingSection";
 import MemberCarousel from "../Components/MemberCarousel";
+import Slider2 from "../Components/Slider2";
 
 const HomePage = () => {
   return (
@@ -81,6 +82,7 @@ const HomePage = () => {
       <WhyEliteSection />
       <MatchmakingSection />
       <MemberCarousel />
+      <Slider2 />
     </>
   );
 };
