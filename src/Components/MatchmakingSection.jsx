@@ -4,7 +4,7 @@ import background from "../assets/background1.jpg";
 const MatchmakingSection = () => {
   return (
     <div
-      className="h-screen max-h-[600px] mt-16 flex items-center justify-center bg-fixed bg-center bg-contain"
+      className="h-auto pt-30 pb-30 mt-16 flex items-center justify-center bg-fixed bg-center bg-contain"
       style={{ backgroundImage: `url(${background})`, width: "100%" }}
     >
       <div className="max-w-5xl  ml-3 mr-3 w-full px-4 py-8 bg-gray-100/10 backdrop-blur-3xl rounded-lg shadow-lg relative overflow-hidden">
