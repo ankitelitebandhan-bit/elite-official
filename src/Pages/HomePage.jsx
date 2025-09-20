@@ -5,6 +5,7 @@ import Connect from "../Components/Connect";
 import Introimage from "../assets/Introimage.webp";
 import Button from "../Components/Button";
 import EliteFeatures from "../Components/EliteFeatures";
+import WhyEliteSection from "../Components/WhyEliteSection";
 
 const HomePage = () => {
   return (
@@ -75,6 +76,7 @@ const HomePage = () => {
       </div>
 
       <EliteFeatures />
+      <WhyEliteSection />
     </>
   );
 };
