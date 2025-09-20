@@ -23,7 +23,7 @@ const MatchmakingSection = () => {
             build is rooted in trust, respect, and a perfect balance of
             tradition and modern values.
           </p>
-          <p className="text-xl font-semibold text-orange-600">
+          <p className="text-xl font-bold italic text-orange-600">
             Your happiness is our true success.
           </p>
         </div>
