@@ -7,6 +7,7 @@ import Button from "../Components/Button";
 import EliteFeatures from "../Components/EliteFeatures";
 import WhyEliteSection from "../Components/WhyEliteSection";
 import MatchmakingSection from "../Components/MatchmakingSection";
+import MemberCarousel from "../Components/MemberCarousel";
 
 const HomePage = () => {
   return (
@@ -79,6 +80,7 @@ const HomePage = () => {
       <EliteFeatures />
       <WhyEliteSection />
       <MatchmakingSection />
+      <MemberCarousel />
     </>
   );
 };
