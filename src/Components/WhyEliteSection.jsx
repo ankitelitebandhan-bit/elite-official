@@ -4,14 +4,14 @@ const WhyEliteSection = () => {
   return (
     <section className="bg-[#FEF2EF]  py-16 px-4">
       {/* Heading */}
-      <h2 className="text-justify text-3xl md:text-5xl font-semibold italic leading-snug text-amber-700 max-w-5xl mx-auto mb-8">
+      <h2 className="text-center text-3xl md:text-5xl font-semibold italic leading-snug text-amber-700 max-w-5xl mx-auto mb-8">
         Why Is{" "}
         <span className="font-bold text-brown-800">EliteBandhan.Com</span> the
         Go-To Premium Matchmaker for Elite Families in Delhi?
       </h2>
 
       {/* Paragraph */}
-      <p className="text-justify max-w-3xl mx-auto italic text-[#BB4D00]  text-base md:text-xl leading-relaxed mb-12 px-4">
+      <p className="text-center max-w-3xl mx-auto italic text-[#BB4D00]  text-base md:text-xl leading-relaxed mb-12 px-4">
         Entrust{" "}
         <span className="font-bold text-brown-800">EliteBandhan.Com</span> with
         your search for the perfect life partner. As a trusted name in premium

@@ -6,6 +6,7 @@ import Introimage from "../assets/Introimage.webp";
 import Button from "../Components/Button";
 import EliteFeatures from "../Components/EliteFeatures";
 import WhyEliteSection from "../Components/WhyEliteSection";
+import MatchmakingSection from "../Components/MatchmakingSection";
 
 const HomePage = () => {
   return (
@@ -77,6 +78,7 @@ const HomePage = () => {
 
       <EliteFeatures />
       <WhyEliteSection />
+      <MatchmakingSection />
     </>
   );
 };
