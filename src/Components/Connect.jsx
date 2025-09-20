@@ -2,75 +2,68 @@ import React from "react";
 
 const Connect = () => {
   return (
-    <div className="w-full m-3 backdrop-blur-3xl max-w-md mx-auto bg-pink-300/10 p-6 rounded-lg shadow-xl">
-      <form className="flex flex-col gap-4">
-        {/* Name Field */}
-        <div className="flex flex-col">
-          <label htmlFor="name" className="text-pink-500 font-semibold mb-1">
-            Name
-          </label>
+    <div className="flex justify-center items-center bg-[#fdf0ea] px-4 py-16">
+      <form
+        className="w-full max-w-6xl flex flex-col items-center bg-[#fdf2ee] p-6 md:p-12 rounded-xl shadow-lg"
+        onSubmit={(e) => e.preventDefault()}
+      >
+        {/* Heading */}
+        <h2 className="w-full text-center text-2xl md:text-4xl font-semibold text-amber-600 mb-10 italic">
+          Please share your details, we will reach out to you
+        </h2>
+
+        {/* Form Fields Grid */}
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
+          {/* Name Field */}
           <input
             type="text"
-            id="name"
             name="name"
-            placeholder="John Doe"
-            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            placeholder="Name"
+            className="w-full p-3 border border-pink-500 rounded-md placeholder-italic focus:outline-none focus:ring-2 focus:ring-pink-700"
             required
           />
-        </div>
 
-        {/* Email Field */}
-        <div className="flex flex-col">
-          <label htmlFor="email" className="text-pink-500 font-semibold mb-1">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="john.doe@example.com"
-            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
-            required
-          />
-        </div>
-
-        {/* Phone Field */}
-        <div className="flex flex-col">
-          <label htmlFor="phone" className="text-pink-500 font-semibold mb-1">
-            Phone
-          </label>
+          {/* Phone Field */}
           <input
             type="tel"
-            id="phone"
             name="phone"
-            placeholder="123-456-7890"
-            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            placeholder="Phone"
+            className="w-full p-3 border border-pink-500 rounded-md placeholder-italic focus:outline-none focus:ring-2 focus:ring-pink-700"
             required
           />
-        </div>
 
-        {/* Message Field */}
-        <div className="flex flex-col">
-          <label htmlFor="message" className="text-pink-500 font-semibold mb-1">
-            Your Message
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            rows="4"
-            placeholder="Type your message here..."
-            className="p-2 border border-pink-500 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+          {/* Country Dropdown */}
+          <select
+            name="country"
+            className="w-full p-3 border border-pink-500 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-pink-700"
             required
-          ></textarea>
+          >
+            <option value="" disabled selected>
+              Select Country
+            </option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+          </select>
+
+          {/* Keyword Field */}
+          <input
+            type="text"
+            name="keyword"
+            placeholder="Your message"
+            className="w-full p-3 border border-pink-500 rounded-md placeholder-italic focus:outline-none focus:ring-2 focus:ring-pink-700"
+          />
         </div>
 
         {/* Submit Button */}
-        <button
-          type="submit"
-          className="w-full bg-pink-500 text-white font-bold py-2 px-4 rounded-md hover:bg-pink-600 transition-colors"
-        >
-          Submit
-        </button>
+        <div className="mt-8">
+          <button
+            type="submit"
+            className="bg-pink-700 text-white font-semibold py-3 px-6 rounded-md hover:bg-amber-600 transition-all shadow-md"
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );

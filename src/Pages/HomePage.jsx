@@ -29,7 +29,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="px-6 sm:px-8 md:px-0 md:max-w-4xl md:mx-auto py-6 text-justify">
+      {/* <div className="px-6 sm:px-8 md:px-0 md:max-w-4xl md:mx-auto py-6 text-justify">
         <h2 className="text-pink-500 text-2xl sm:text-4xl font-bold text-center mb-4 italic">
           Why Choose Us?
         </h2>
@@ -47,7 +47,7 @@ const HomePage = () => {
             couples who found love through us.
           </li>
         </ul>
-      </div>
+      </div> */}
 
       <Connect />
       <div class="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
