@@ -29,7 +29,7 @@ const HomePage = () => {
           <Navbar />
         </div>
 
-        <div className="relative z-20 px-4 text-center sm:px-6   sm:pt-24 pb-6 max-w-3xl mx-auto">
+        <div className="relative z-20 px-4 text-center sm:px-6   sm:pt-24 mt-10 pb-6 max-w-3xl mx-auto">
           <h1 className="text-[#C77F34] text-3xl sm:text-5xl font-bold drop-shadow-lg italic">
             Find Your Perfect Match
           </h1>
