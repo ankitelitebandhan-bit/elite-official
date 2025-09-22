@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
 
       {/* Login Section */}
-      <h2 className="text-pink-500 font-semibold text-lg sm:text-xl mr-5">
+      <h2 className="text-[#C77F34] font-semibold text-lg sm:text-xl mr-5">
         Login
       </h2>
     </div>

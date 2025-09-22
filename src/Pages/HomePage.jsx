@@ -18,11 +18,10 @@ const HomePage = () => {
   return (
     <>
       <div className="relative w-full">
-        {/* Background image (not absolutely positioned) */}
         <img
           src={Banner}
           alt="Banner"
-          className="w-full object-cover max-h-[1000px]" // limits height on large screens
+          className="w-full  object-cover max-h-[1200px]" // limits height on large screens
         />
 
         <div className="absolute top-0 left-0 w-full z-10">
