@@ -2,7 +2,7 @@ import React from "react";
 
 const Connect = () => {
   return (
-    <div className="flex justify-center items-center bg-[#fdf0ea] px-4 py-16">
+    <div className="flex justify-center items-center bg-[#fdf0ea] px-4 py-14">
       <form
         className="w-full max-w-6xl flex flex-col items-center bg-[#fdf2ee] p-6 md:p-12 rounded-xl shadow-lg"
         onSubmit={(e) => e.preventDefault()}
