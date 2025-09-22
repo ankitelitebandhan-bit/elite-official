@@ -11,12 +11,12 @@ const Footer = () => {
             <h2 className="text-4xl mb-10 font-bold italic">
               EliteBandhan.Com
             </h2>
-            <p className="text-[#BB4D00]/90 mb-3 font-semibold italic text-lg">
+            <p className="text-[#BB4D00]/90 mb-3 font-semibold italic text-md">
               At <strong>EliteBandhan.Com</strong>, matchmaking is more than a
               service, it’s our passion. We find joy in uniting souls and take
               pride in every successful bond we help create.
             </p>
-            <p className="text-[#BB4D00]/90 mb-3 font-semibold italic text-lg">
+            <p className="text-[#BB4D00]/90 mb-3 font-semibold italic text-md">
               With a personalized approach and sincere effort, we make partner
               search easier and more meaningful. Every relationship we build is
               rooted in trust, respect, and a perfect balance of tradition and
