@@ -90,7 +90,7 @@ const MemberCarousel = () => {
                   <p className="text-sm text-gray-600 mt-1">
                     {member.profession}
                   </p>
-                  <span className="inline-block mt-2 bg-green-100 text-green-700 text-sm px-3 py-1 rounded-full">
+                  <span className="inline-block mt-2 bg-[#FF6900] text-white text-sm px-3 py-1 rounded-full">
                     {member.location}
                   </span>
                 </div>

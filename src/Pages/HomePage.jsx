@@ -11,29 +11,36 @@ import MemberCarousel from "../Components/MemberCarousel";
 import Slider2 from "../Components/Slider2";
 import SuccessStories from "../Components/SuccessStories";
 import MatrimonialSection from "../Components/MatrimonialSection";
+import FAQSection from "../Components/FAQSection";
+import Footer from "../Components/Footer";
 
 const HomePage = () => {
   return (
     <>
-      <div className="relative w-full h-screen">
+      <div className="relative w-full">
+        {/* Background image (not absolutely positioned) */}
         <img
           src={Banner}
           alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover -z-10"
+          className="w-full object-cover max-h-[1000px]" // limits height on large screens
         />
 
-        <Navbar />
+        <div className="absolute top-0 left-0 w-full z-10">
+          <Navbar />
+        </div>
 
-        <div className="absolute inset-0 flex flex-col justify-center items-start  md:text-left px-4 sm:px-6 space-y-4 text-justify">
-          <h1 className="text-pink-500 text-3xl sm:text-5xl font-bold drop-shadow-lg italic">
-            Find Your perfect Match
+        {/* Text block below navbar */}
+        <div className="relative z-20 px-4 sm:px-6 pt-24 sm:pt-32 pb-10 max-w-3xl mx-auto">
+          <h1 className="text-[#C77F34] text-3xl sm:text-5xl font-bold drop-shadow-lg italic">
+            Find Your Perfect Match
           </h1>
-          <p className="text-white font-bold text-lg sm:text-xl drop-shadow-lg max-w-lg italic">
+          <p className="text-[#C77F34] font-bold text-lg sm:text-xl drop-shadow-lg mt-4 italic">
             Trusted matrimonial service with thousands of successful matches. We
             connect hearts and build families.
           </p>
         </div>
       </div>
+
       <Connect />
       <div className="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
         <div className="mb-4 md:mb-0 md:mr-8 flex-shrink-0 w-full md:w-1/3 shadow-2xl">
@@ -95,6 +102,8 @@ const HomePage = () => {
       </section>
       <SuccessStories />
       <MatrimonialSection />
+      <FAQSection />
+      <Footer />
     </>
   );
 };
