@@ -9,6 +9,8 @@ import WhyEliteSection from "../Components/WhyEliteSection";
 import MatchmakingSection from "../Components/MatchmakingSection";
 import MemberCarousel from "../Components/MemberCarousel";
 import Slider2 from "../Components/Slider2";
+import SuccessStories from "../Components/SuccessStories";
+import MatrimonialSection from "../Components/MatrimonialSection";
 
 const HomePage = () => {
   return (
@@ -38,13 +40,13 @@ const HomePage = () => {
           <img
             src={Introimage}
             alt="Introduction"
-            className="w-full h-auto border-4 border-pink-500 rounded-2xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-pink-500/50"
+            className="w-full h-auto border-4 border-[#C77F34] rounded-2xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-orange-500/50"
           />
         </div>
 
         <div className="w-full md:w-2/3 max-w-2xl ">
           <h3 className="text-[#C77F34] italic">EliteBandhan.Com</h3>
-          <h2 className="text-pink-500 text-2xl sm:text-4xl font-bold mb-4 italic">
+          <h2 className="text-[#C77F34] text-2xl sm:text-4xl font-bold mb-4 italic">
             Premium Matrimonial Service in Delhi - EliteBandhan.Com
           </h2>
           <p className="text-[#C77F34] text-lg sm:text-xl italic text-justify">
@@ -91,6 +93,8 @@ const HomePage = () => {
           match across continents
         </p>
       </section>
+      <SuccessStories />
+      <MatrimonialSection />
     </>
   );
 };

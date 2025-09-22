@@ -59,7 +59,7 @@ const Connect = () => {
         <div className="mt-8">
           <button
             type="submit"
-            className="bg-pink-700 text-white font-semibold py-3 px-6 rounded-md hover:bg-amber-600 transition-all shadow-md"
+            className="bg-orange-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-orange-600 transition-all shadow-md"
           >
             Submit
           </button>
