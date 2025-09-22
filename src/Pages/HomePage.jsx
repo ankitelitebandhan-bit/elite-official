@@ -29,8 +29,7 @@ const HomePage = () => {
           <Navbar />
         </div>
 
-        {/* Text block below navbar */}
-        <div className="relative z-20 px-4 sm:px-6 pt-24 sm:pt-32 pb-10 max-w-3xl mx-auto">
+        <div className="relative z-20 px-4 text-center sm:px-6   sm:pt-16 pb-6 max-w-3xl mx-auto">
           <h1 className="text-[#C77F34] text-3xl sm:text-5xl font-bold drop-shadow-lg italic">
             Find Your Perfect Match
           </h1>
@@ -79,7 +78,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="px-4 sm:px-6 md:max-w-4xl md:mx-auto">
-        <h1 className="text-[#E17100] text-2xl sm:text-4xl font-bold italic mt-16 mb-16 text-justify">
+        <h1 className="text-[#E17100] text-2xl sm:text-4xl font-bold italic mt-16 mb-16 text-center">
           Our Edge: Exclusive Profiles, Dedicated Managers & Trusted Matrimonial
           Services
         </h1>
