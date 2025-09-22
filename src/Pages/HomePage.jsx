@@ -32,7 +32,6 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-
       <Connect />
       <div className="p-4 sm:p-6 w-full flex flex-col md:flex-row justify-center items-center  mx-auto">
         <div className="mb-4 md:mb-0 md:mr-8 flex-shrink-0 w-full md:w-1/3 shadow-2xl">
@@ -70,19 +69,28 @@ const HomePage = () => {
           <Button />
         </div>
       </div>
-
       <div className="px-4 sm:px-6 md:max-w-4xl md:mx-auto">
         <h1 className="text-[#E17100] text-2xl sm:text-4xl font-bold italic mt-16 mb-16 text-justify">
           Our Edge: Exclusive Profiles, Dedicated Managers & Trusted Matrimonial
           Services
         </h1>
       </div>
-
       <EliteFeatures />
       <WhyEliteSection />
       <MatchmakingSection />
       <MemberCarousel />
       <Slider2 />
+      <section className="bg-[#FEF2EF]  py-16 px-4">
+        <h2 className="text-center text-3xl md:text-5xl font-semibold italic leading-snug text-amber-700 max-w-5xl mx-auto mb-8">
+          Real Success Stories That Define Our Premium Matrimonial Service in
+          Delhi
+        </h2>
+
+        <p className="text-center max-w-3xl mx-auto italic text-[#BB4D00]  text-base md:text-xl leading-relaxed mb-12 px-4">
+          Love knows no boundaries - hear from couples who found their perfect
+          match across continents
+        </p>
+      </section>
     </>
   );
 };
