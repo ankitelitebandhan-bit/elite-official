@@ -6,7 +6,7 @@ import ContactUs from "./Pages/ContactUs";
 import Blogs from "./Pages/Blogs";
 import Services from "./Pages/Services";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
-import TermsConditions from "./Pages/TermsCondition";
+import TermsConditions from "./Pages/TermsConditions";
 
 const App = () => {
   return (
