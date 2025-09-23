@@ -8,7 +8,7 @@ import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
 import FeatureSection from "../Components/FeatureSection";
-import banner from "../assets/banner.webp";
+import banner from "../assets/Banner.webp";
 import MatchMakers from "../Components/Matchmakers";
 import Footer from "../Components/Footer";
 
