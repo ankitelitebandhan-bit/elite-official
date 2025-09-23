@@ -9,7 +9,7 @@ import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
 import FeatureSection from "../Components/FeatureSection";
 import banner from "../assets/banner.webp";
-import MatchMakers from "../Components/MatchMakers";
+import MatchMakers from "../Components/Matchmakers";
 import Footer from "../Components/Footer";
 
 const AboutUs = () => {
