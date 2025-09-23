@@ -8,7 +8,7 @@ import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
 import FeatureSection from "../Components/FeatureSection";
-// import Banner from "../assets/Banner2.webp";
+import banner from "../assets/Banner.webp";
 import MatchMakers from "../Components/Matchmakers";
 import Footer from "../Components/Footer";
 
@@ -187,7 +187,7 @@ const AboutUs = () => {
       <div className="bg-[#FDF0EA] py-12 px-6 sm:px-6 lg:px-8 mt-12 italic">
         <div
           className="relative bg-cover bg-center h-auto flex items-center"
-          style={{ backgroundImage: `url(${Banner2})` }}
+          style={{ backgroundImage: `url(${banner})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>{" "}
           {/* Dark overlay for better text visibility */}
