@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MatrimonialSection = () => {
   return (
@@ -86,9 +87,11 @@ const MatrimonialSection = () => {
 
       {/* Register Button */}
       <div className="flex justify-center mt-8">
-        <button className="bg-[#FDF0EA] hover:shadow-2xl font-bold py-4 px-8 text-xl rounded-full hover:scale-105 transition duration-200">
-          Register for Free
-        </button>
+        <Link to="https://www.elitebandhan.com/register.php">
+          <button className="bg-[#FDF0EA] hover:shadow-2xl font-bold py-4 px-8 text-xl rounded-full hover:scale-105 transition duration-200">
+            Register for Free
+          </button>
+        </Link>
       </div>
     </div>
   );

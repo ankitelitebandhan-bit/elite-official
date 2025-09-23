@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from "../assets/logo_png.webp";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,9 +13,14 @@ const Navbar = () => {
       </div>
 
       {/* Login Section */}
-      <h2 className="text-[#C77F34] font-semibold text-lg sm:text-xl mr-5">
-        Login
-      </h2>
+      <Link
+        to="https://www.elitebandhan.com/user-dashboard/login.php"
+        className="hover:underline"
+      >
+        <h2 className="text-[#C77F34] font-semibold text-lg sm:text-xl mr-5">
+          Login
+        </h2>
+      </Link>
     </div>
   );
 };

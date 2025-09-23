@@ -49,7 +49,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:underline">
+                <Link
+                  to="https://www.elitebandhan.com/about-us.php"
+                  className="hover:underline"
+                >
                   About Us
                 </Link>
               </li>
@@ -65,7 +68,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/blogs" className="hover:underline">
+                <Link
+                  to="https://www.elitebandhan.com/blog.php"
+                  className="hover:underline"
+                >
                   Blogs
                 </Link>
               </li>
@@ -88,15 +94,24 @@ const Footer = () => {
               Our Social Links
             </h2>
             <div className="flex space-x-4 text-[#BB4D00] text-xl ">
-              <a href="#" className="hover:text-gray-800">
+              <Link
+                to="https://www.facebook.com/people/EliteBandhancom/61555794033045/?sk=about"
+                className="hover:text-gray-800"
+              >
                 <FaFacebookF />
-              </a>
-              <a href="#" className="hover:text-gray-800">
+              </Link>
+              <Link
+                to="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Felitebandhan-com%2Fabout%2F%3FviewAsMember%3Dtrue"
+                className="hover:text-gray-800"
+              >
                 <FaLinkedinIn />
-              </a>
-              <a href="#" className="hover:text-gray-800">
+              </Link>
+              <Link
+                to="https://www.instagram.com/elitebandhan.com_delhi/"
+                className="hover:text-gray-800"
+              >
                 <FaInstagram />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
